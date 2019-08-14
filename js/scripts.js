@@ -22,6 +22,7 @@ $(document).ready(function(){
     event.preventDefault();
     var number1 = parseInt($("#number1").val());
     var number2 = parseInt($("#number2").val());
-    alert(add(number1, number2));
-  })
+    var result = add(number1, number2);
+    $("#output").text(result);
+  });
 });
