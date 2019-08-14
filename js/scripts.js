@@ -1,4 +1,4 @@
-BUSINESS CALCULATOR
+// BUSINESS CALCULATOR
 var add = function(number1, number2){
 return number1 + number2
 }
@@ -25,7 +25,7 @@ var result4 = (divide(number1,number2))
 alert(result + ", " + result2 + ", " + result3 + ", & " + result4);
 
 
-BMI Calculator
+// BMI Calculator
 var bmi = function(number1, number2){
   return number1 / (number2 * 2)
 }
